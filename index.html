@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up to maloPRO</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="logo-section">
+      <div id="logo-container">atlantiCorp</div>
+    </div>
+    <div id="form-section">
+      <div id="header">
+        <h3>Welcome to <em>atlantiCorp!</em></h3>
+        <p><em>Join us today</em></p>
+      </div>
+      <div id="form-wrapper">
+        <form>
+          <div id="name-section">
+            <div class="form-input">
+              <label for="firstName">First Name*</label>
+              <input type="text" id="firstName" name="firstName" maxlength="15" required>
+            </div>
+            <div class="form-input">
+              <label for="lastName">Last Name*</label>
+              <input type="text" id="lastName" name="lastName" maxlength="15" required>
+            </div>
+          </div>
+          <div id="contact-section">
+            <div class="form-input">
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+            <div class="form-input">
+                <label for="phoneNumber">Phone Number*</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" maxlength="10" required>
+            </div>
+          </div>
+          <div id="password-section">
+            <div class="form-input">
+              <label for="password">Password*</label>
+              <input type="password" id="password" name="password" minlength="8" maxlength="20" placeholder="8-20 characters" required>
+            </div>
+            <div class="form-input">
+              <label for="confirmPassword">Confirm Password*</label>
+              <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="20" placeholder="8-20 characters" required>
+            </div>
+          </div>
+          <div id="submit-section">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+        <div id="login">
+          <p>Already have an account? <a href="#">Log in.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/scripts/script.js"></script>
+</html>
